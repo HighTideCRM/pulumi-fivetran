@@ -1,3 +1,4 @@
+yaml-language-server: $schema=https://goreleaser.com/static/schema.json
 version: 2
 archives:
   - id: archive
@@ -22,7 +23,7 @@ builds:
       - -X github.com/csechrist/pulumi-fivetran/provider/pkg/version.Version={{.Tag }}
     main: ./cmd/pulumi-resource-fivetran/
 changelog:
-  skip: true
+  disable: true
 release:
   disable: false
   prerelease: auto
