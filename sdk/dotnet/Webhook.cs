@@ -118,6 +118,7 @@ namespace Pulumi.Fivetran
             var defaultOptions = new CustomResourceOptions
             {
                 Version = Utilities.Version,
+                PluginDownloadURL = "github://api.github.com/HighTideCRM/pulumi-fivetran",
                 AdditionalSecretOutputs =
                 {
                     "secret",

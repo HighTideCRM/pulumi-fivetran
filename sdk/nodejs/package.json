@@ -1,5 +1,5 @@
 {
-    "name": "@pulumi/fivetran",
+    "name": "@hightidecrm/pulumi-fivetran",
     "version": "${VERSION}",
     "description": "A Pulumi package for creating and managing fivetran cloud resources.",
     "keywords": [
@@ -23,6 +23,7 @@
     },
     "pulumi": {
         "resource": true,
-        "name": "fivetran"
+        "name": "fivetran",
+        "server": "github://api.github.com/HighTideCRM/pulumi-fivetran"
     }
 }

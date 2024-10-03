@@ -15,7 +15,7 @@ import * as utilities from "./utilities";
  *
  * ```typescript
  * import * as pulumi from "@pulumi/pulumi";
- * import * as fivetran from "@pulumi/fivetran";
+ * import * as fivetran from "@hightidecrm/pulumi-fivetran";
  *
  * const project = new fivetran.DbtProject("project", {
  *     dbtVersion: "1.4.1",
